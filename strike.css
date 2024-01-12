@@ -1,0 +1,338 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow:visible;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(black)
+}
+
+header {
+  background: linear-gradient(180deg,#DA874F,#091628);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px, 25px, 25px, 20px;
+  font: 2em sans-serif;
+  color: #fff;
+}
+.cont{
+  background:linear-gradient(180deg,#DA874F,#091628);
+}
+.nice {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  cursor: pointer;
+  background:linear-gradient(180deg,#DA874F,#091628);
+}
+
+.first-month {
+  background-color: black;
+  border-radius: 15px;
+}
+
+.first-month h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  font-family: "Times New Roman", Times, serif;
+  background: linear-gradient(270deg, purple, red);
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.first-week {
+  color: beige;
+  padding: 20px;
+}
+.first-week ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.first-week span {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.second-month {
+  background-color: black;
+  border-radius: 15px;
+}
+
+.second-month h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  font-family: "Times New Roman", Times, serif;
+  background: linear-gradient(270deg, purple, red);
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.third-month {
+  background-color: black;
+  border-radius: 15px;
+}
+
+.third-month h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  font-family: "Times New Roman", Times, serif;
+  background: linear-gradient(270deg, purple, red);
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.section-two {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  cursor: pointer;
+}
+
+.fourth-month {
+  background-color: black;
+  border-radius: 15px;
+}
+
+.fourth-month h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  font-family: "Times New Roman", Times, serif;
+  background: linear-gradient(270deg, purple, red);
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.fifth-month {
+  background-color: black;
+  border-radius: 15px;
+}
+
+.fifth-month h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  font-family: "Times New Roman", Times, serif;
+  background: linear-gradient(270deg, purple, red);
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.sixth-month {
+  background-color: black;
+  border-radius: 15px;
+}
+
+.sixth-month h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  font-family: "Times New Roman", Times, serif;
+  background: linear-gradient(270deg, purple, red);
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.section-three {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  cursor: pointer;
+}
+
+.seventh-month {
+  background-color: black;
+  border-radius: 15px;
+}
+
+.seventh-month h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  font-family: "Times New Roman", Times, serif;
+  background: linear-gradient(270deg, purple, red);
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.eight-month {
+  background-color: black;
+  border-radius: 15px;
+}
+
+.eight-month h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  font-family: "Times New Roman", Times, serif;
+  background: linear-gradient(270deg, purple, red);
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.ninth-month {
+  background-color: black;
+  border-radius: 15px;
+}
+
+.ninth-month h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  font-family: "Times New Roman", Times, serif;
+  background: linear-gradient(270deg, purple, red);
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.section-four {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  cursor: pointer;
+}
+
+.tenth-month {
+  background-color: black;
+  border-radius: 15px;
+}
+
+.tenth-month h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  font-family: "Times New Roman", Times, serif;
+  background: linear-gradient(270deg, purple, red);
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.eleventh-month {
+  background-color: black;
+  border-radius: 15px;
+}
+
+.eleventh-month h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  font-family: "Times New Roman", Times, serif;
+  background: linear-gradient(270deg, purple, red);
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.twelveth-month {
+  background-color: black;
+  border-radius: 15px;
+}
+
+.twelveth-month h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  font-family: "Times New Roman", Times, serif;
+  background: linear-gradient(270deg, purple, red);
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.btt button{
+    width: 100%;
+    position: relative;
+    top: -70px;
+    background-color: inherit;
+    color: #DA874F;
+    border: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 950px){
+  .nice{
+  display: block;
+  }
+  .second-month{
+    margin-top: 10px;
+  }
+  .third-month{
+    margin-top: 10px;
+  }
+  .section-two{
+    display: block;
+    background-color: #DA874F;
+  }
+  .fifth-month{
+    margin-top: 10px;
+  }
+  .sixth-month{
+    margin-top:10px ;
+  }
+  .section-three{
+    display: block;
+    background-color: #091628;
+  }
+  .eight-month{
+    margin-top: 10px;
+  }
+  .ninth-month{
+    margin-top: 10px;
+  }
+  .section-four{
+    display: block;
+    background-color: #DA874F;
+  }
+  .eleventh-month{
+    margin-top: 10px;
+  }
+  .twelveth-month{
+    margin-top: 10px;
+  }
+  .cont{
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #DA874F;
+  }
+}
